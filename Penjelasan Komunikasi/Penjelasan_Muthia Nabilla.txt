@@ -1,0 +1,22 @@
+Isi penjelasan kalian disini gess
+Jangan lupa untuk merubah judul file ini menjadi Penjelasan_[Nama].txt yaaa (tanpa [])
+
+Tugas Post-Day 3 : Elektrikal 
+Nama : Muthia Nabilla Azzahra
+NIM    : 16523012
+
+Metode komunikasi data
+1.	Simplex
+Mode simplex bersifat undirectional karena mode ini memungkinkan komunikasi hanya dalam satu arah. Perangkat pengirim menggunakan seluruh saluran komunikasi atau semua bandwith yang tersedia karena komunikasi hanya dalam satu arah. Mode simplex tidak terlalu populer karena sebagian besar komunikasi memerlukan komunikasi dua arah. Keuntungan dari mode simplex adalah lebih banyak data yang dapat ditransmisikan pada suatu waktu karena transmisi menggunakan kapasitas penuh dari saluran komunikasi.
+2.	Half- Duplex
+Mode half-duplex memungkinkan komunikasi dalam dua arah tetapi tidak pada waktu yang sama. Kedua perangkat dapat mengirim dan menerima data, tetapi tidak pada waktu yang sama. Perangkat menggunakan seluruh bandwidth saluran komunikasi dalam satu arah pada satu waktu. Mode half-duplex memungkinkan pendeteksian kesalahan. Jika terjadi kesalahan, maka penerima meminta pengirim untuk mengirim ulang data. Kelebihan dari mode half-duplex adalah kedua perangkat dapat mengirim dan menerima data serta memanfaatkan seluruh bandwidth saluran komunikasi selama transmisi data.
+3.	Full Duplex
+Mode full-duplex bersifat bidirectional karena mode ini memungkinkan komunikasi dalam dua arah secara bersamaan. Kedua perangkat dapat mengirim dan menerima data secara bersamaan. Mode full-duplex memiliki dua saluran simplex. Satu saluran memiliki lalu lintas yang bergerak dalam satu arah untuk mengirim data dan saluran lain memiliki lalu lintas yang mengalir ke arah berlawanan untuk menerima data. Mode full-duplex adalah mode komunikasi tercepat antarperangkat. Kelebihan dari mode full-duplex adalah kedua perangkat dapat mengirim dan menerima data secara bersamaan.
+
+Jenis2 Komunikasi 
+1.	Komunikasi SPI (Serial Peripheral Interface)
+Komunikasi SPI adalah protokol komunikasi tercepat jika dibandingkan dengan protokol komunikasi lain seperti I2C dan UART. Pada komunikasi SPI terdapat hubungan master dengan slave. Perangkat yang berperan sebagai master seperti mikrokontroler akan mengendalikan clock pada komunikasi. Perangkat yang berperan sebagai slave biasanya berupa sensor, display, maupun chip memori yang menerima data dari master. Jenis pin yang terdapat dalam komunikasi SPI adalah MOSI (Master Output/Slave Input) yang berperan untuk mengirim data dari master, MISO (Master Input/Slave Output) yang berperan untuk mengirim data dari slave, SCLK (Clock) yang berperan sebagai sumber clock, dan SS/CS (Slave Select/Chip Select) yang berperan untuk menentukan slave mana yang akan dikirimkan datanya. Komunikasi SPI terdiri atas tiga jalur sinyal yaitu Serial Clock (SCLK), Serial Data Output (SDO), dan Serial Data Input (SDI).
+2.	Komunikasi I2C (Inter-Integrated Circuit)
+Komunikasi I2C memungkinkan komunikasi dengan slave yang jumlahnya lebih dari satu. Komunikasi I2C hanya menggunakan dua kabel, tidak seperti pada komunikasi SPI yang menggunakan empat kabel. Pada komunikasi I2C terdapat hubungan master dengan slave. Master adalah perangkat yang memulai transfer data pada I2C dengan membentuk sinyal Start, mengakhiri transfer data dengan membentuk sinyal Stop, dan membangkitkan sinyal Clock. Slave adalah perangkat yang dialamati master. Sistem I2C terdiri atas saluran SCL (Serial Clock) dan SDA (Serial Data) yang membawa informasi data antara I2C dengan pengontrolnya.
+3.	Komunikasi UART (Universal Asynchronous Receiver Transmitter)
+Komunikasi UART memungkinkan komunikasi serial asinkron dengan kecepatan yang dapat dikonfigurasi. Asinkron artinya tidak ada clock yang menyinkronkan dua perangkat secara langsung. UART terdiri atas pin TX untuk mentransmisikan data dan pin RX untuk menerima data. UART bekerja dengan mengubah data menjadi paket untuk mengirim atau membangun kembali data dari paket yang diterima. Pada UART, data akan ditransfer tanpa memerlukan tambahan eksternal clock row (CLK). UART dapat bekerja secara half-duplex dan full-duplex.
